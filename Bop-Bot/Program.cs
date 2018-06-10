@@ -64,7 +64,7 @@ namespace Bop_Bot
 
             int argPos = 0;
 
-            if (message.HasStringPrefix("tnt!", ref argPos) || message.HasMentionPrefix(_client.CurrentUser, ref argPos))
+            if (message.HasStringPrefix("mik!", ref argPos) || message.HasMentionPrefix(_client.CurrentUser, ref argPos))
             {
                 var context = new SocketCommandContext(_client, message);
 
